@@ -11,7 +11,7 @@ const SearchBar = ({ onSearch }) => {
   };
 
   return (
-    <div className="w-full max-w-md mx-auto my-4" style={{marginLeft:"494px",padding:"10px",marginBottom:"40px",opacity: 1,}}>
+    <div className="w-full max-w-md mx-auto my-4" style={{marginLeft:"69px",padding:"10px",marginBottom:"10px",opacity: 1,marginTop:"1px"}}>
       <form onSubmit={handleSubmit} className="flex items-center">
         <input
           style={{padding:"15px",width:"350px",borderRadius:"10px",fontSize:"25px",marginTop:"250px",border:"transparent",color:"black",background:"white"}}
