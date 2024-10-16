@@ -14,7 +14,7 @@ const SearchBar = ({ onSearch }) => {
     <div className="w-full max-w-md mx-auto my-4" style={{marginLeft:"69px",padding:"10px",marginBottom:"10px",opacity: 1,marginTop:"1px"}}>
       <form onSubmit={handleSubmit} className="flex items-center">
         <input
-          style={{padding:"15px",width:"350px",borderRadius:"10px",fontSize:"25px",marginTop:"250px",border:"transparent",color:"black",background:"white"}}
+          style={{padding:"8px",width:"250px",borderRadius:"10px",fontSize:"25px",marginTop:"250px",border:"transparent",color:"black",background:"white",marginLeft:"-70px",marginBottom:"-10px"}}
           type="text"
           className="w-full p-2 border border-gray-300 rounded-l focus:outline-none focus:ring-2 focus:ring-blue-500"
           placeholder="Search for a movie...."
