@@ -3,8 +3,11 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  
 }
-
+body{
+  background-color: black;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +42,11 @@
 
 .read-the-docs {
   color: #888;
+}
+.background-container {
+  background-image: url('./assets/movie-collage-wallpaper-thumb.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Full height */
 }

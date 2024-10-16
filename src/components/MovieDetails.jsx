@@ -31,12 +31,12 @@ const MovieDetails = () => {
   if (error) return <div>{error}</div>;
 
   return (
-    <div className="p-4">
+    <div className="p-4" style={{backgroundColor:"black",color:"green",fontSize:"20px",width:"100%",paddingLeft:"20px"}}>
       <h1 className="text-2xl font-bold">{movie.Title}</h1>
-      <img src={movie.Poster} alt={movie.Title} className="my-4 w-full max-w-sm" />
-      <p><strong>Release Year:</strong> {movie.Released}</p>
+      <img style={{marginTop:"-40px"}} src={movie.Poster} alt={movie.Title} className="my-4 w-full max-w-sm" />
+      <p ><strong>Release Year:</strong> {movie.Released}</p>
       <p><strong>Genre:</strong> {movie.Genre}</p>
-      <p><strong>Plot:</strong> {movie.Plot}</p>
+      <p style={{width:"80%"}}><strong>Plot:</strong> {movie.Plot}</p>
       <p><strong>Ratings:</strong></p>
       <ul>
         {movie.Ratings.map((rating) => (
